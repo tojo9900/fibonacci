@@ -54,8 +54,9 @@ unsigned int fibonacci1(unsigned int n)
 // Worst-case: O(N!)
 unsigned int fibonacci2(unsigned int n)
 {
-    if (n < 2)
+    if (n < 2) {
         return n;
-    else
+    } else {
         return fibonacci2(n - 1) + fibonacci2(n - 2);
+    }
 }
