@@ -25,7 +25,6 @@
  *
  */
 
-
 #include <iostream>
 
 unsigned int fibonacci1(unsigned int n);
