@@ -30,7 +30,7 @@
 unsigned int fibonacci1(unsigned int n);
 unsigned int fibonacci2(unsigned int n);
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
     std::cout << fibonacci1(46) << std::endl;
     std::cout << fibonacci2(46) << std::endl;
